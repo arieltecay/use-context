@@ -6,7 +6,7 @@ const UserList = () => {
 
   useEffect(() => {
     getUsers();
-  }, []);
+  }, [getUsers]);
 
   const selectProfile = (id) => {
     getProfile(id);
